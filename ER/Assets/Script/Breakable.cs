@@ -31,6 +31,7 @@ public class Breakable : MonoBehaviour
             {
                 item.SetActive(true);
                 item.transform.parent = null;
+
             }        
 
             OnBreak.Invoke();
@@ -39,4 +40,6 @@ public class Breakable : MonoBehaviour
         }
         
     }
+
+
 }
