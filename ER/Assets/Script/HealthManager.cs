@@ -5,7 +5,7 @@ public class HealthManager : MonoBehaviour
 {
     public Slider healthBar;
     public float maxHealth = 100f;
-    private float currentHealth;
+    public float currentHealth;
     public float decayRate = 5f;
 
     private bool isGameOver = false;
